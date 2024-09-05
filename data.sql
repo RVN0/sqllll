@@ -1,4 +1,4 @@
-insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (1, 2, 4, true, '2024-12-19');
+insert into Friends (FriendID, FriendWhoAdded, FriendBeingAdded, IsAccepted, DateAdded) values (1, 2, 4, true, '2024-12-19'),
 (2, 5, 3, false, '2024-03-07'),
 (3, 5, 16, true, '2022-03-18'),
 (4, 11, 8, false, '2024-03-03'),
