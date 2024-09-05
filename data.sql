@@ -49,7 +49,7 @@ insert into Groups (GroupID, GroupName, CreatedBy, DateAdded) values (1, 'Pionee
 (15, 'Acme Corporation', 8, '2021-01-12'),
 (16, 'Innovate Tech', 5, '2020-05-12');
 
-insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (1, 'gfrascone0', 'Gabriellia', 'Frascone', '2000-08-14', 'iR0`5G?&bWaAcPdo', '2020-01-09');
+insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password, DateAdded) values (1, 'gfrascone0', 'Gabriellia', 'Frascone', '2000-08-14', 'iR0`5G?&bWaAcPdo', '2020-01-09'),
 (2, 'mhearsum1', 'Madella', 'Hearsum', '2010-09-15', 'qP8#tS}"2vjI', '2024-03-10'),
 (3, 'sjirsa2', 'Sherie', 'Jirsa', '2009-01-02', 'rN7=bsn_', '2023-06-16'),
 (4, 'hmaccague3', 'Hersch', 'MacCague', '2006-12-24', 'rP5}bJeHxv.vC7Ju', '2022-07-18'),
