@@ -66,7 +66,7 @@ insert into Users (UserID, Username, FirstName, LastName, DateOfBirth, Password,
 (15, 'rfanshawee', 'Rebekkah', 'Fanshawe', '2006-11-26', 'fJ4#0(a+q', '2024-04-28'),
 (16, 'etorpief', 'Emelda', 'Torpie', '2001-11-24', 'cW5"t3t"nzoCK}`C', '2022-12-16');
 
-insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (1, 1, 14, false, '2024-06-09');
+insert into GroupMembershipRequests (GroupMemberShipRequestsID, GroupID, GroupMemberUserID, IsGroupMemberShipAccepted, DateAccepted) values (1, 1, 14, false, '2024-06-09'),
 (2, 12, 4, false, '2022-08-06'),
 (3, 13, 14, true, '2023-11-18'),
 (4, 11, 16, true, '2022-11-24'),
