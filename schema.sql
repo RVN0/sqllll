@@ -5,7 +5,7 @@ CREATE TABLE Users (
     LastName VARCHAR(50),
     DateOfBirth DATE,
     Password VARCHAR(255),
-    DateAdded TIMESTAMP DEFAULT 
+    DateAdded TIMESTAMP
 );
 
 CREATE TABLE Friends (
@@ -13,14 +13,14 @@ CREATE TABLE Friends (
     FriendWhoAdded INT,
     FriendBeingAdded INT,
     IsAccepted BOOLEAN,
-    DateAdded TIMESTAMP DEFAULT 
+    DateAdded TIMESTAMP 
 );
 
 CREATE TABLE Groups (
     GroupID INT AUTO_INCREMENT PRIMARY KEY,
     GroupName VARCHAR(100),
     CreatedBy INT,
-    DateAdded TIMESTAMP DEFAULT
+    DateAdded TIMESTAMP
 );
 
 CREATE TABLE Posts (
@@ -30,7 +30,7 @@ CREATE TABLE Posts (
     IsPublic BOOLEAN,
     IsOnlyForFriends BOOLEAN,
     GroupID INT,
-    DatePosted TIMESTAMP DEFAULT 
+    DatePosted TIMESTAMP
 );
 
 CREATE TABLE GroupMembershipRequests (
@@ -38,5 +38,5 @@ CREATE TABLE GroupMembershipRequests (
     GroupID INT,
     GroupMemberUserID INT,
     IsGroupMemberShipAccepted BOOLEAN,
-    DateAccepted TIMESTAMP DEFAULT 
+    DateAccepted TIMESTAMP
 );
